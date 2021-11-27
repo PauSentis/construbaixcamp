@@ -1,0 +1,26 @@
+defaults: &defaults
+  # Database configuration
+  DB_DATABASE: "database name"
+  DB_PASSWORD: "database password"
+  DB_USERNAME: "database username"
+  # Mailer configuration
+  MAILER_SMTP_ADDRESS: "smtp email address"
+  MAILER_SMTP_DOMAIN: "smtp email domain"
+  MAILER_SMTP_PORT: "587"
+  MAILER_SMTP_USER_NAME: "smtp email username"
+  MAILER_SMTP_PASSWORD: "smtp email password"
+  
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+integration:
+  <<: *defaults
+
+staging:
+  <<: *defaults
+
+production:
+  <<: *defaults
