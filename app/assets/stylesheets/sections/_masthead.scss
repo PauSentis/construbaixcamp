@@ -10,21 +10,19 @@ header.masthead {
     background-image: image-url("header-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center center;
+    background-position: bottom center;
     background-size: cover;
 
     .masthead-subheading {
-        font-size: 1.5rem;
-        font-style: italic;
-        line-height: 1.5rem;
+        font-size: 1rem;
+        font-style: normal;
         margin-bottom: 25px;
         font-family: $subheadings-font-family;
     }
 
     .masthead-heading {
-        font-size: 3.25rem;
+        font-size: 2.25rem;
         font-weight: 700;
-        line-height: 3.25rem;
         margin-bottom: 2rem;
         font-family: $headings-font-family;
     }
@@ -32,20 +30,18 @@ header.masthead {
 
 @include media-breakpoint-up(md) {
     header.masthead {
-        padding-top: 12.5rem + 4.5rem;
-        padding-bottom: 12.5rem;
+        padding-top: 17rem;
+        padding-bottom: 5.5rem;
 
         .masthead-subheading {
-            font-size: 2.25rem;
-            font-style: italic;
-            line-height: 2.25rem;
+            font-size: 1.5rem;
+            font-style: normal;
             margin-bottom: 2rem;
         }
 
         .masthead-heading {
-            font-size: 4.5rem;
+            font-size: 3.5rem;
             font-weight: 700;
-            line-height: 4.5rem;
             margin-bottom: 4rem;
         }
     }

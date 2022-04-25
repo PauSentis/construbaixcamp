@@ -1,0 +1,15 @@
+ca:
+  header:
+    title: 'Benvinguts a la Constructora Baix Camp'
+    description: 'El nostre potencial és un equip humà format per professionals de tots els rams amb molts anys d’experiència i tècnics qualificats amb els mitjans necessaris per poder oferir un servei integral a les obres i als serveis que realitzem. El nostre referent sempre ha estat procurar per la feina ben feta que comporta, a més d’estar rodejats de bons professionals,  estar formats contínuament amb les tècniques i nous materials que van sorgint en el sector, per així poder donar el millor servei.'
+    button: 'Descobrir'
+  services: 'Serveis'
+  about: 'Trajectòria'
+  portfolio: 'Portafoli'
+  contact: 'Contacte'
+  services_subtitle: "Estem preparats per a la realització de tot tipus d'obra de construcció i manteniment. Des de la construcció d'un edifici plurifamiliars claus en mà, fins a la reforma del bany i la cuina, passant pels treballs de manteniments de la comunitat de propietaris. Donem un servei integral als nostres clients."
+  close: 'Tancar'
+  service:
+    rehabilitations: 'Rehabilitacions'
+    modal1:
+      text: "<p>Integral d'edificis</br>Estructures</br>Façanes i cobertes</br></p>"

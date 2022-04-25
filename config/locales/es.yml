@@ -1,0 +1,7 @@
+es:
+  services: 'Servicios'
+  about: 'Treyectoria'
+  portfolio: 'Portafolio'
+  contact: 'Contacto'
+  service:
+    rehabilitations: 'Rehabilitaciones'
