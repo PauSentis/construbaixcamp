@@ -1,7 +1,41 @@
 es:
   services: 'Servicios'
   about: 'Treyectoria'
-  portfolio: 'Portafolio'
   contact: 'Contacto'
   service:
-    rehabilitations: 'Rehabilitaciones'
+    rehabilitacions:
+      title: 'Rehabilitaciones'
+      modal:
+        text: "<p>Integral d'edificis</br>Estructures</br>Façanes i cobertes</br></p>"
+    obra_nova:
+      title: 'Obra nueva'
+      modal:
+        text: ''
+    reformes:
+      title: 'Reformas'
+      modal:
+        text: ''
+    enderrocs:
+      title: 'Derribos'
+      modal:
+        text: ''
+    obra_publica:
+      title: 'Obra pública'
+      modal:
+        text: ''
+    manteniments:
+      title: 'Mantenimientos'
+      modal:
+        text: ''
+    aillaments:
+      title: 'Aislamientos'
+      modal:
+        text: ''
+    departament_tecnic:
+      title: 'Departamento técnico'
+      modal:
+        text: ''
+    impermeabilitzacions:
+      title: 'Impermeabilizaciones'
+      modal:
+        text: ''

@@ -5,11 +5,43 @@ ca:
     button: 'Descobrir'
   services: 'Serveis'
   about: 'Trajectòria'
-  portfolio: 'Portafoli'
   contact: 'Contacte'
   services_subtitle: "Estem preparats per a la realització de tot tipus d'obra de construcció i manteniment. Des de la construcció d'un edifici plurifamiliars claus en mà, fins a la reforma del bany i la cuina, passant pels treballs de manteniments de la comunitat de propietaris. Donem un servei integral als nostres clients."
   close: 'Tancar'
   service:
-    rehabilitations: 'Rehabilitacions'
-    modal1:
-      text: "<p>Integral d'edificis</br>Estructures</br>Façanes i cobertes</br></p>"
+    rehabilitacions:
+      title: 'Rehabilitacions'
+      modal:
+        text: "<p>Integral d'edificis</br>Estructures</br>Façanes i cobertes</br></p>"
+    obra_nova:
+      title: 'Obra nova'
+      modal:
+        text: ''
+    reformes:
+      title: 'Reformes'
+      modal:
+        text: ''
+    enderrocs:
+      title: 'Enderrocs'
+      modal:
+        text: ''
+    obra_publica:
+      title: 'Obra pública'
+      modal:
+        text: ''
+    manteniments:
+      title: 'Manteniments'
+      modal:
+        text: ''
+    aillaments:
+      title: 'Aïllaments'
+      modal:
+        text: ''
+    departament_tecnic:
+      title: 'Departament tècnic'
+      modal:
+        text: ''
+    impermeabilitzacions:
+      title: 'Impermeabilitzacions'
+      modal:
+        text: ''

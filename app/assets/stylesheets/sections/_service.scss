@@ -1,19 +1,19 @@
 //
-// Portfolio section styling
+// service section styling
 //
 
 #services {
-    .portfolio-item {
+    .service-item {
         max-width: 26rem;
         margin-left: auto;
         margin-right: auto;
 
-        .portfolio-link {
+        .service-link {
             position: relative;
             display: block;
             margin: 0 auto;
 
-            .portfolio-hover {
+            .service-hover {
                 display: flex;
                 position: absolute;
                 width: 100%;
@@ -24,32 +24,36 @@
                 opacity: 0;
                 transition: opacity ease-in-out 0.25s;
 
-                .portfolio-hover-content {
+                .service-hover-content {
                     font-size: 1.25rem;
                     color: white;
                 }
             }
 
             &:hover {
-                .portfolio-hover {
+                .service-hover {
                     opacity: 1;
                 }
             }
+
+            img {
+                width: 100%;
+            }
         }
 
-        .portfolio-caption {
+        .service-caption {
             padding: 1.5rem;
             text-align: center;
             background-color: $white;
 
-            .portfolio-caption-heading {
+            .service-caption-heading {
                 font-size: 1.5rem;
                 font-family: $headings-font-family;
                 font-weight: $headings-font-weight;
                 margin-bottom: 0;
             }
 
-            .portfolio-caption-subheading {
+            .service-caption-subheading {
                 font-style: italic;
                 font-family: $subheadings-font-family;
             }
@@ -57,7 +61,7 @@
     }
 }
 
-.portfolio-modal {
+.service-modal {
     .modal-dialog {
         margin: 1rem;
         max-width: 100vw;
