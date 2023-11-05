@@ -1,0 +1,21 @@
+version: '3'
+services:
+  web:
+    build: .
+    volumes:
+      - .:/rails
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+  db:
+    image: postgres
+    volumes:
+      - constru-postgres-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: ${DATABASE_USERNAME}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+    ports:
+      - "5432:5432" 
+volumes:
+  constru-postgres-data:
