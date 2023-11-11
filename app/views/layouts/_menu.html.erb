@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= link_to(root_path, class: 'navbar-brand') do %>
+      <%= image_tag("logo.png", alt: "Logo", class: "img-fluid logo-menu") %>
+    <% end %>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>    
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <hr class="d-lg-none">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item nav-page">
+          <%= link_to(t('menu.home'), root_path, class: nav_link_class(root_path)) %>
+        </li>
+        <li class="nav-item nav-page">
+          <%= link_to(t('menu.business'), business_path, class: nav_link_class(business_path)) %>
+        </li>
+        <li class="nav-item nav-page">
+          <%= link_to(t('menu.services'), services_path, class: nav_link_class(services_path)) %>
+        </li>
+        <li class="nav-item nav-page">
+          <%= link_to(t('menu.trajectory'), trajectory_path, class: nav_link_class(trajectory_path)) %>
+        </li>
+        <li class="nav-item nav-page">
+          <%= link_to(t('menu.contact'), contact_path, class: nav_link_class(contact_path)) %>
+        </li>
+        <hr class="d-lg-none">
+        <li class="nav-item d-lg-none">
+            <%= link_to("Cat", url_for(locale: :ca), class: nav_lang_class(:ca)) %>
+            <%= link_to("Es", url_for(locale: :es), class: nav_lang_class(:es)) %>
+            <%= link_to("En", url_for(locale: :en), class: nav_lang_class(:en)) %>
+        </li>
+      </ul>
+    </div>
+
+    <div class="navbar-nav float-end d-none d-lg-block">
+      <div class="nav-item">
+        <%= link_to("Cat", root_path(locale: :ca), class: nav_lang_class(:ca)) %>
+      </div>
+      <div class="nav-item">
+        <%= link_to("Es", url_for(locale: :es), class: nav_lang_class(:es)) %>
+      </div>
+      <div class="nav-item">
+        <%= link_to("En", url_for(locale: :en), class: nav_lang_class(:en)) %>
+      </div>
+    </div>
+  </div>
+</nav>

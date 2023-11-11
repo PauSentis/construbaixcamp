@@ -6,5 +6,11 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   # Defines the root path route ("/")
-  # root "posts#index"
+  scope '(:locale)', locale: /en|es|ca/ do
+    root "pages#home"
+    get '/business', to: 'pages#business', as: 'business'
+    get '/services', to: 'pages#services', as: 'services'
+    get '/trajectory', to: 'pages#trajectory', as: 'trajectory'
+    get '/contact', to: 'pages#contact', as: 'contact'
+  end
 end
