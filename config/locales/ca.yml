@@ -2,6 +2,7 @@ ca:
   btn:
     know_more: Saber-ne més
     contact: Contacta'ns
+    send: Enviar
   menu:
     home: Inici
     business: Empresa
@@ -21,3 +22,11 @@ ca:
     contact:
       title: Contacte
       description: No dubti en contactar amb nosaltres si vol demanar pressupost o té qualsevol qüestió
+  contact:
+    title: Contacte
+    description: Si vol contactar amb nosaltres pot enviar-nos un correu electrònic, omplir el següent formulari o contactar via telefònica.
+    form:
+      name: Nom i cognoms*
+      email: Correu electrònic*
+      mobile_number: Telèfon
+      message: Missatge

@@ -11,6 +11,7 @@ Rails.application.routes.draw do
     get '/business', to: 'pages#business', as: 'business'
     get '/services', to: 'pages#services', as: 'services'
     get '/trajectory', to: 'pages#trajectory', as: 'trajectory'
-    get '/contact', to: 'pages#contact', as: 'contact'
+    get '/contact', to: 'contact#new', as: 'contact'
+    post '/contact', to: 'contact#create'
   end
 end

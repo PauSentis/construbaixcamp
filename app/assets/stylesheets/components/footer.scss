@@ -12,7 +12,7 @@ footer {
     padding-top: 33px;
   }
 
-  .row-info {
+  .row-contact-info {
     margin-top: 24px;
     margin-bottom: 20px;
 
@@ -23,17 +23,17 @@ footer {
       margin-bottom: 33px;
     }
 
-    a{
+    a {
       color: #ffffff;
       text-decoration: none;
     }
 
-    i{
+    i {
       font-size: 25px;
       margin-right: 25px;
     }
 
-    span{
+    span {
       font-size: 15px;
 
       @include media-breakpoint-up(md) {

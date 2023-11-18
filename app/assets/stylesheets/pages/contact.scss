@@ -1,0 +1,92 @@
+.contact-page{
+  .title{
+    font-size: 25px;
+    font-weight: 700; 
+    text-align: center;
+    margin-top: 30px;
+
+    @include media-breakpoint-up(md) {
+      font-size: 40px;
+      margin-top: 42px;
+    }
+  }
+
+  .description{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 28px;
+
+    @include media-breakpoint-up(md) {
+      font-size: 22px;
+    }
+  }
+
+  .row-contact-info {
+    margin-top: 40px;
+
+    @include media-breakpoint-up(md) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    i {
+      font-size: 25px;
+      margin-right: 25px;
+    }
+
+    span {
+      font-size: 18px;
+
+      @include media-breakpoint-up(md) {
+        font-size: 25px;
+      }
+    }
+  }
+
+  .form-contact {
+    margin-top: 40px;
+
+    .form-label {
+      font-size: 15px;
+      text-align: left;
+
+      @include media-breakpoint-up(md) {
+        font-size: 20px;
+      }
+    }
+
+    .form-control {
+      border-radius: 25px;
+      border: 1px solid rgba(151,151,151, 1);
+    }
+
+    textarea {
+      min-height: 170px;
+
+      @include media-breakpoint-up(md) {
+        min-height: 200px;
+      }
+    }
+
+    .btn {
+      border: none;
+      border-radius: 30px;
+      background-color: rgba(183,20,44, 1);
+      margin-top: 10px;
+      padding: 8px 16px;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 16px;
+      text-align: right;
+
+      @include media-breakpoint-up(md) {
+        font-size: 20px;
+      }
+    }
+  }
+}

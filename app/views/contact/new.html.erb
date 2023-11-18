@@ -1,0 +1,33 @@
+<div class="container contact-page">
+  <h1 class="title"><%= t('contact.title') %></h1>
+  <p class="description"><%= t('contact.description') %></p>
+
+  <%= render 'shared/contact_data' %>
+
+  
+  <%= form_with(url: contact_path, method: :post, class: 'row g-3 form-contact') do |form| %>
+    <div class="col-md-6">
+      <%= form.label :name, t('contact.form.name'), class: 'form-label' %>
+      <%= form.text_field :name, class: 'form-control', required: true %>
+    </div>
+
+    <div class="col-md-6">
+      <%= form.label :email, t('contact.form.email'), class: 'form-label' %>
+      <%= form.email_field :email, class: 'form-control', required: true %>
+    </div>
+
+    <div class="col-md-6">
+      <%= form.label :mobile_number, t('contact.form.mobile_number'), class: 'form-label' %>
+      <%= form.telephone_field :mobile_number, class: 'form-control', required: true %>
+    </div>
+
+    <div class="col-12">
+      <%= form.label :message, t('contact.form.message'), class: 'form-label' %>
+      <%= form.text_area :message, class: 'form-control', rows: 4, required: true %>
+    </div>
+
+    <div class="col-12">
+      <%= form.submit t('btn.send'), class: 'btn btn-primary' %>
+    </div>
+  <% end %>
+</div>

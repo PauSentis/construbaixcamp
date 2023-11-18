@@ -2,6 +2,7 @@ en:
   btn:
     know_more: Learn more
     contact: Contact Us
+    send: Send
   menu:
     home: Home
     business: Business
@@ -21,3 +22,11 @@ en:
     contact:
       title: Contact
       description: Feel free to contact us if you want to request a quote or have any questions
+  contact:
+    title: Contact
+    description: If you want to get in touch with us, you can send us an email, fill out the following form, or contact us by phone.
+    form:
+      name: Name and Surname*
+      email: Email*
+      mobile_number: Phone
+      message: Message

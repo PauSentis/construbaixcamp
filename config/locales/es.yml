@@ -2,6 +2,7 @@ es:
   btn:
     know_more: Saber más
     contact: Contáctanos
+    send: Enviar
   menu:
     home: Inicio
     business: Empresa
@@ -21,4 +22,11 @@ es:
     contact:
       title: Contacto
       description: No dude en contactar con nosotros si desea solicitar un presupuesto o tiene alguna pregunta
-
+  contact:
+    title: Contacto
+    description: Si desea contactar con nosotros, puede enviarnos un correo electrónico, completar el siguiente formulario o comunicarse telefónicamente.
+    form:
+      name: Nombre y apellidos*
+      email: Correo electrónico*
+      mobile_number: Teléfono
+      message: Mensaje
