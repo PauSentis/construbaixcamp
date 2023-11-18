@@ -1,0 +1,38 @@
+footer {
+  width: 100%;
+  background-color: #525252;
+  color: #ffffff;
+  padding: 20px;
+  padding-top: 28px;
+  font-size: 12px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 15px;
+    padding-top: 33px;
+  }
+
+  .row-info {
+    margin-top: 24px;
+    margin-bottom: 20px;
+
+    @include media-breakpoint-up(md) {
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 33px;
+    }
+
+    i{
+      font-size: 25px;
+      margin-right: 25px;
+    }
+
+    span{
+      font-size: 15px;
+
+      @include media-breakpoint-up(md) {
+        font-size: 18px;
+      }
+    }
+  }
+}

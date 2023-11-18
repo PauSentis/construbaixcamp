@@ -1,2 +1,28 @@
 @import "bootstrap";
-@import "menu";
+@import "components/menu";
+@import "components/footer";
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: font-url('NunitoSans_7pt-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-weight: 600;
+  font-style: normal;
+  src: font-url('NunitoSans_7pt-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-weight: 400;
+  font-style: italic;
+  src: font-url('NunitoSans_7pt-Italic.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
