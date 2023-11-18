@@ -1,0 +1,15 @@
+.carousel{
+  height: 400px;
+
+  @include media-breakpoint-up(md) {
+    height: 600px;
+  }
+
+  .carousel-image{
+    height: 400px;
+
+    @include media-breakpoint-up(md) {
+      height: 600px;
+    }
+  }
+}

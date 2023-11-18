@@ -1,1 +1,48 @@
-<h1>Hello World</h1>
+<%= render 'shared/carousel', images: [
+  'carousel/materials.png', 
+  'carousel/serveis.png', 
+  'carousel/contacte.png', 
+  'carousel/empresa.png'
+] %>
+
+<div class="container home-page">
+  <h1 class="title"><%= t('home.title') %></h1>
+  <p class="description"><%= t('home.description') %></p>
+
+  <div class="redirections">
+    <div class="widgets-container row">
+      <div class="col-sm-12 col-md-6">
+        <div class="widget-container">
+          <%= image_tag("test.jpeg", alt: "", class: "img-fluid widget-image") %>
+          <div class="widget-title"><%= t('home.redirections.business.title') %></div>
+          <div class="widget-description"><%= t('home.redirections.business.description') %></div>
+          <%= link_to(business_path, class: 'widget-button') do %>
+            <%= t('btn.know_more') %>
+            <i class="fas fa-arrow-right"></i>
+          <% end %>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6">
+        <div class="widget-container">
+          <%= image_tag("test.jpeg", alt: "", class: "img-fluid widget-image") %>
+          <div class="widget-title"><%= t('home.redirections.services.title') %></div>
+          <div class="widget-description"><%= t('home.redirections.services.description') %></div>
+          <%= link_to(services_path, class: 'widget-button') do %>
+            <%= t('btn.know_more') %>
+            <i class="fas fa-arrow-right"></i>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact">
+    <h1 class="contact-title"><%= I18n.t('home.contact.title') %></h1>
+    <p class="contact-description"><%= I18n.t('home.contact.description') %></p>
+    <%= link_to(contact_path, class: 'contact-button') do %>
+      <%= t('btn.contact') %>
+    <% end %>
+  </div>
+</div>
+

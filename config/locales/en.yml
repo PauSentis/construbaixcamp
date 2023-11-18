@@ -1,7 +1,23 @@
 en:
+  btn:
+    know_more: Learn more
+    contact: Contact Us
   menu:
     home: Home
     business: Business
     services: Services
     trajectory: Trajectory
     contact: Contact
+  home:
+    title: Welcome to Constructora Baix Camp
+    description: CONSTRUCTOR BAIX CAMP is a modern and committed construction company located in the regions of Camp de Tarragona, with a human team that has a history of over 60 years. Throughout this time, we have undertaken various types of construction and rehabilitation projects for housing developers, individuals, and entities.
+    redirections:
+      business:
+        title: Business
+        description: Responsibility, commitment, quality, safety, and the environment
+      services:
+        title: Services
+        description: Experience and commitment underpin all the projects undertaken during our years in operation
+    contact:
+      title: Contact
+      description: Feel free to contact us if you want to request a quote or have any questions

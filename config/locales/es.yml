@@ -1,7 +1,24 @@
 es:
+  btn:
+    know_more: Saber más
+    contact: Contáctanos
   menu:
     home: Inicio
     business: Empresa
     services: Servicios
     trajectory: Trayectoria
     contact: Contacto
+  home:
+    title: Bienvenidos a Constructora Baix Camp
+    description: CONSTRUCTORA BAIX CAMP es una empresa constructora moderna y comprometida, ubicada en las comarcas del Camp de Tarragona, con un equipo humano que cuenta con una trayectoria de más de 60 años. A lo largo de este tiempo, hemos llevado a cabo obras y rehabilitaciones de diversos tipos para promotores de viviendas, particulares y entidades.
+    redirections:
+      business:
+        title: Empresa
+        description: Responsabilidad, compromiso, calidad, seguridad y medio ambiente
+      services:
+        title: Servicios
+        description: La experiencia y el compromiso respaldan todos los proyectos realizados durante los años que llevamos en activo
+    contact:
+      title: Contacto
+      description: No dude en contactar con nosotros si desea solicitar un presupuesto o tiene alguna pregunta
+

@@ -1,0 +1,17 @@
+<div id="carousel<%= action_name.capitalize %>" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <% images.each_with_index do |image_path, index| %>
+      <div class="carousel-item <%= 'active' if index == 0 %>">
+        <%= image_tag(image_path, class: "carousel-image") %>
+      </div>
+    <% end %>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel<%= action_name.capitalize %>" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel<%= action_name.capitalize %>" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
