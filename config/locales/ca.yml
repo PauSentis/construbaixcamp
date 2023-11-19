@@ -11,7 +11,7 @@ ca:
     contact: Contacte
   home:
     title: Benvinguts a la Constructora Baix Camp
-    description: CONSTRUCTORA BAIX CAMP som una empresa constructora moderna i compromesa, implantada en les comarques del camp de Tarragona i un equip humà amb una trajectòria de més de 60 anys, al llarg del quals hem realitzat obres i rehabilitacions de molts tipus per a promotors d’habitatges, particulars i entitats.
+    description: CONSTRUCTORA BAIX CAMP som una empresa constructora moderna i compromesa, implantada en les comarques del camp de Tarragona i un equip humà amb una trajectòria de més de 60 anys, al llarg del quals hem realitzat obres i rehabilitacions de molts tipus per a promotors d'habitatges, particulars i entitats.
     redirections:
       business:
         title: Empresa
@@ -30,3 +30,27 @@ ca:
       email: Correu electrònic*
       mobile_number: Telèfon
       message: Missatge
+  business:
+    title: Empresa
+    description_1: El nostre potencial és un equip humà format per professionals de tots els rams amb molts anys d'experiència i tècnics qualificats amb els mitjans necessaris per poder oferir un servei integral a les obres i als serveis que realitzem.
+    description_2: El nostre referent sempre ha estat procurar per la feina ben feta que comporta, a més d'estar rodejats de bons professionals,  estar formats contínuament amb les tècniques i nous materials que van sorgint en el sector, per així poder donar un servei.
+    title_our_values: Els nostres valors
+    widget_values:
+      widget_1:
+        title: Equip humà
+        description: Integral d'edificis<br>Estructures<br>Façanes i cobertes
+      widget_2:
+        title: Experiència
+        description: Integral d'edificis<br>Estructures<br>Façanes i cobertes
+      widget_3:
+        title: Servei integral
+        description: Integral d'edificis<br>Estructures<br>Façanes i cobertes
+      widget_4:
+        title: Formació continua
+        description: Integral d'edificis<br>Estructures<br>Façanes i cobertes
+      widget_5:
+        title: Professionalitat
+        description: Integral d'edificis<br>Estructures<br>Façanes i cobertes
+      widget_6:
+        title: Tècniques i materials punters
+        description: Integral d'edificis<br>Façanes i cobertes

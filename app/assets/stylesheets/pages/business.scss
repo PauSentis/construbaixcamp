@@ -1,0 +1,94 @@
+.business-page{
+  .title{
+    font-size: 25px;
+    font-weight: 700; 
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+
+    @include media-breakpoint-up(md) {
+      font-size: 40px;
+      margin-top: 42px;
+    }
+  }
+
+  .description{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 28px;
+
+    @include media-breakpoint-up(md) {
+      font-size: 22px;
+    }
+  }
+
+  .widgets-value {
+    margin-left: 8%;
+    margin-right: 8%;
+
+    @include media-breakpoint-up(sm) {
+      margin-left: 75px;
+      margin-right: 75px;
+    }
+
+    @include media-breakpoint-up(md) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .widget-col {
+      padding-top: 35px;
+
+      @include media-breakpoint-up(md) {
+        padding: 25px;
+      }
+    }
+
+    .widget-value {
+      background-color: rgba(244,244,244, 1);
+      text-align: center;
+      width: 100%;
+      position: relative;
+      padding-bottom: 100%;
+      overflow: hidden;
+
+      .widget-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+      
+
+        .widget-icon {
+          color: rgba(183,20,44, 1);
+          font-size: 48px;
+        }
+
+        .widget-title {
+          font-size: 24px;
+          font-weight: 700;
+          margin-top: 20px;
+
+          @include media-breakpoint-up(xl) {
+            font-size: 30px;
+          }
+        }
+
+        .widget-description {
+          font-size: 16px;
+          margin-top: 15px;
+          margin-bottom: 0;
+          
+          @include media-breakpoint-up(xl) {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .carousel{
+    margin-top: 30px;
+  }
+}

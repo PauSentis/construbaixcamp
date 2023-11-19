@@ -30,3 +30,28 @@ es:
       email: Correo electrónico*
       mobile_number: Teléfono
       message: Mensaje
+  business:
+    title: Empresa
+    description_1: Nuestro potencial es un equipo humano formado por profesionales de todos los sectores con muchos años de experiencia y técnicos cualificados con los medios necesarios para ofrecer un servicio integral en las obras y servicios que realizamos.
+    description_2: Nuestra referencia siempre ha sido velar por el trabajo bien hecho, lo que implica, además de estar rodeados de buenos profesionales, formarnos continuamente en las técnicas y nuevos materiales que surgen en el sector para así poder brindar un servicio de calidad.
+    title_our_values: Nuestros valores
+    widget_values:
+      widget_1:
+        title: Equipo humano
+        description: Integral de edificios<br>Estructuras<br>Fachadas y cubiertas
+      widget_2:
+        title: Experiencia
+        description: Integral de edificios<br>Estructuras<br>Fachadas y cubiertas
+      widget_3:
+        title: Servicio integral
+        description: Integral de edificios<br>Estructuras<br>Fachadas y cubiertas
+      widget_4:
+        title: Formación continua
+        description: Integral de edificios<br>Estructuras<br>Fachadas y cubiertas
+      widget_5:
+        title: Profesionalidad
+        description: Integral de edificios<br>Estructuras<br>Fachadas y cubiertas
+      widget_6:
+        title: Técnicas y materiales de vanguardia
+        description: Integral de edificios<br>Fachadas y cubiertas
+

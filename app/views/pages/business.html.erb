@@ -1,0 +1,27 @@
+<div class="container business-page">
+  <h1 class="title"><%= t('business.title') %></h1>
+  <p class="description"><%= t('business.description_1') %></p>
+  <p class="description"><%= t('business.description_2') %></p>
+
+  <h1 class="title"><%= t('business.title_our_values') %></h1>
+  <div class="row widgets-value">
+    <% 6.times do |i| %>
+      <div class="col-sm-12 col-md-6 col-lg-4 widget-col">
+        <div class="widget-value">
+          <div class="widget-content">
+            <i class="widget-icon fas fa-robot"></i>
+            <h1 class="widget-title"><%= t("business.widget_values.widget_#{i+1}.title") %></h1>
+            <p class="widget-description"><%= t("business.widget_values.widget_#{i+1}.description").html_safe %></p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <%= render 'shared/carousel', images: [
+  'carousel/materials.png', 
+  'carousel/serveis.png', 
+  'carousel/contacte.png', 
+  'carousel/empresa.png'
+] %>
+</div>

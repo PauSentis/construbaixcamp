@@ -30,3 +30,27 @@ en:
       email: Email*
       mobile_number: Phone
       message: Message
+  business:
+    title: Business
+    description_1: Our strength is a human team composed of professionals from all sectors with many years of experience and qualified technicians with the necessary means to offer a comprehensive service in the works and services we carry out.
+    description_2: Our benchmark has always been to ensure well-done work, which involves not only being surrounded by good professionals but also continuously training in the techniques and new materials emerging in the sector to provide quality service.
+    title_our_values: Our values
+    widget_values:
+      widget_1:
+        title: Human Team
+        description: Building<br>Structures<br>Facades and Roofs
+      widget_2:
+        title: Experience
+        description: Building<br>Structures<br>Facades and Roofs
+      widget_3:
+        title: Comprehensive Service
+        description: Building<br>Structures<br>Facades and Roofs
+      widget_4:
+        title: Continuous Training
+        description: Building<br>Structures<br>Facades and Roofs
+      widget_5:
+        title: Professionalism
+        description: Building<br>Structures<br>Facades and Roofs
+      widget_6:
+        title: Cutting-Edge Techniques and Materials
+        description: Building<br>Facades and Roofs
