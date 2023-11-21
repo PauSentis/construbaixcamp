@@ -15,13 +15,13 @@ es:
     redirections:
       business:
         title: Empresa
-        description: Responsabilidad, compromiso, calidad, seguridad y medio ambiente
+        description: Responsabilidad, compromiso, calidad y medio ambiente
       services:
         title: Servicios
         description: La experiencia y el compromiso respaldan todos los proyectos realizados durante los años que llevamos en activo
     contact:
       title: Contacto
-      description: No dude en contactar con nosotros si desea solicitar un presupuesto o tiene alguna pregunta
+      description: No dude en contactar con nosotros si desea solicitar un presupuesto
   contact:
     title: Contacto
     description: Si desea contactar con nosotros, puede enviarnos un correo electrónico, completar el siguiente formulario o comunicarse telefónicamente.
