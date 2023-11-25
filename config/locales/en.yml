@@ -3,6 +3,7 @@ en:
     know_more: Learn more
     contact: Contact Us
     send: Send
+    ask-info: Ask for information
   menu:
     home: Home
     business: Business
@@ -48,3 +49,13 @@ en:
         title: Professionalism
       widget_6:
         title: Cutting-Edge Techniques and Materials
+  services:
+    new_construction:
+      title: New Construction
+      description: Our activity has always been focused on the construction of new buildings, both multi-family and single-family, as well as large rehabilitations.
+    renovation:
+      title: Renovation
+      description: Our company specializes in the renovation of existing buildings and spaces to enhance and adapt them to current needs. From the modernization of interiors to the complete restoration of facades, we offer top-notch renovation services. With our meticulous approach and the use of high-quality materials, we transform spaces to give them a new life.
+    rehabilitation:
+      title: Rehabilitation
+      description: Rehabilitation is a fundamental part of our service, where we focus on restoring and preserving old buildings with special attention to the conservation of their historic character. From structural repairs to complete renovation, we are committed to giving a new life to historic buildings while preserving their authenticity. Our experience in this field guarantees exceptional results with deep respect for the architectural richness of the past.

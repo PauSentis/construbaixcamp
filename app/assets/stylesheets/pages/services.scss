@@ -1,0 +1,47 @@
+.services-page {
+  text-align: center;
+  
+  .title {
+    max-width: 380px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 31px;
+
+    @include media-breakpoint-up(md) {
+      width: 450px;
+      margin-top: 42px;
+      font-size: 30px;
+      line-height: 37.2px;
+    }
+  }
+
+  .description {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 28px;
+
+    @include media-breakpoint-up(md) {
+      font-size: 22px;
+    }
+  }
+
+  .info-button {
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(183,20,44, 1);
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding: 8px 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+
+    @include media-breakpoint-up(md) {
+      font-size: 22px;
+    }
+  }
+}

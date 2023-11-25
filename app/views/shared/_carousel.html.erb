@@ -1,4 +1,5 @@
-<div id="carousel<%= action_name.capitalize %>" class="carousel slide" data-bs-ride="carousel">
+<% id = "carousel#{location.split('/').last.capitalize}" %>
+<div id="<%= id %>" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <% n_items.times do |i| %>
       <div class="carousel-item <%= 'active' if i == 0 %>">
@@ -7,11 +8,11 @@
       </div>
     <% end %>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carousel<%= action_name.capitalize %>" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#<%= id %>" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carousel<%= action_name.capitalize %>" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#<%= id %>" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>

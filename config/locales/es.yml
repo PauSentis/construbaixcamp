@@ -3,6 +3,7 @@ es:
     know_more: Saber más
     contact: Contáctanos
     send: Enviar
+    ask-info: Solicitar información
   menu:
     home: Inicio
     business: Empresa
@@ -48,3 +49,14 @@ es:
         title: Profesionalidad
       widget_6:
         title: Técnicas y materiales de vanguardia
+  services:
+    new_construction:
+      title: Obra Nueva
+      description: Nuestra actividad siempre ha estado enfocada en la edificación de nueva construcción, tanto de edificios plurifamiliares como unifamiliares, así como en grandes rehabilitaciones.
+    renovation:
+      title: Renovación
+      description: Nuestra empresa está especializada en la renovación de edificios y espacios existentes para mejorarlos y adaptarlos a las necesidades actuales. Desde la modernización de interiores hasta la restauración completa de fachadas, ofrecemos servicios de renovación de primera clase. Con nuestro enfoque meticuloso y el uso de materiales de primera calidad, transformamos los espacios para darles una nueva vida.
+    rehabilitation:
+      title: Rehabilitación
+      description: La rehabilitación es una parte fundamental de nuestro servicio, donde nos centramos en restaurar y preservar edificios antiguos con especial atención a la conservación de su carácter histórico. Desde la reparación de la estructura hasta la renovación completa, estamos comprometidos a dar una nueva vida a los edificios históricos mientras preservamos su autenticidad. Nuestra experiencia en este ámbito garantiza resultados excepcionales con un profundo respeto por la riqueza arquitectónica del pasado.
+

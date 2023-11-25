@@ -1,0 +1,25 @@
+<%= render 'shared/carousel', location: 'carousel/services', n_items: 5 %>
+
+<div class="container services-page">
+  <h1 class="title"><%= t('services.new_construction.title') %></h1>
+  <p class="description"><%= t('services.new_construction.description') %></p>
+  <%= render 'shared/carousel', location: 'carousel/services/new_construction', n_items: 13 %>
+  <%= link_to(contact_path, class: 'info-button') do %>
+    <%= t('btn.ask-info') %>
+  <% end %>
+
+
+  <h1 class="title"><%= t('services.renovation.title') %></h1>
+  <p class="description"><%= t('services.renovation.description') %></p>
+  <%= render 'shared/carousel', location: 'carousel/services/renovation', n_items: 5 %>
+  <%= link_to(contact_path, class: 'info-button') do %>
+    <%= t('btn.ask-info') %>
+  <% end %>
+
+  <h1 class="title"><%= t('services.rehabilitation.title') %></h1>
+  <p class="description"><%= t('services.rehabilitation.description') %></p>
+  <%= render 'shared/carousel', location: 'carousel/services/rehabilitation', n_items: 6 %>
+  <%= link_to(contact_path, class: 'info-button') do %>
+    <%= t('btn.ask-info') %>
+  <% end %>
+</div>

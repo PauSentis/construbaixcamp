@@ -3,6 +3,7 @@ ca:
     know_more: Saber-ne més
     contact: Contacta'ns
     send: Enviar
+    ask-info: Demanar informació
   menu:
     home: Inici
     business: Empresa
@@ -48,3 +49,13 @@ ca:
         title: Professionalitat
       widget_6:
         title: Tècniques i materials punters
+  services:
+    new_construction:
+      title: Obra nova
+      description: La nostra activitat ha estat sempre enfocada en l’edificació de nova construcció tant d’edificis plurifamiliars com d’unifamiliars i grans rehabilitacions.
+    renovation:
+      title: Rennovació
+      description: La nostra empresa és especialitzada en la renovació d'edificis i espais existents per a millorar-los i adaptar-los a les necessitats actuals. Des de la modernització d'interiors fins a la restauració completa de facanes, oferim serveis de renovació de primera classe. Amb el nostre enfocament meticulós i l'ús de materials de primera qualitat, transformem els espais per aportar-los una nova vida.
+    rehabilitation:
+      title: Rehabilitació
+      description: La rehabilitació és una part fonamental del nostre servei, on ens centrem en restaurar i preservar edificis antics amb una atenció especial a la conservació del seu caràcter històric. Des de la reparació de l'estructura fins a la renovació completa, estem compromesos a donar una nova vida als edificis històrics mentre preservem la seva autenticitat. La nostra experiència en aquest àmbit garanteix resultats excepcionals amb un respecte profund per la riquesa arquitectònica del passat.
