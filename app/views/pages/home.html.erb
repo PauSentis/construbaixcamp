@@ -1,9 +1,4 @@
-<%= render 'shared/carousel', images: [
-  'carousel/materials.png', 
-  'carousel/serveis.png', 
-  'carousel/contacte.png', 
-  'carousel/empresa.png'
-] %>
+<%= render 'shared/carousel', location: 'carousel/home', n_items: 6 %>
 
 <div class="container home-page">
   <h1 class="title"><%= t('home.title') %></h1>
@@ -13,7 +8,7 @@
     <div class="widgets-container row">
       <div class="col-sm-12 col-md-6">
         <div class="widget-container">
-          <%= image_tag("test.jpeg", alt: "", class: "img-fluid widget-image") %>
+          <%= image_tag("business.png", alt: "", class: "img-fluid widget-image") %>
           <div class="widget-title"><%= t('home.redirections.business.title') %></div>
           <div class="widget-description"><%= t('home.redirections.business.description') %></div>
           <%= link_to(business_path, class: 'widget-button') do %>
@@ -25,7 +20,7 @@
 
       <div class="col-sm-12 col-md-6">
         <div class="widget-container">
-          <%= image_tag("test.jpeg", alt: "", class: "img-fluid widget-image") %>
+          <%= image_tag("serveis.png", alt: "", class: "img-fluid widget-image") %>
           <div class="widget-title"><%= t('home.redirections.services.title') %></div>
           <div class="widget-description"><%= t('home.redirections.services.description') %></div>
           <%= link_to(services_path, class: 'widget-button') do %>

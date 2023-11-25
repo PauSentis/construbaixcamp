@@ -15,13 +15,13 @@ ca:
     redirections:
       business:
         title: Empresa
-        description: Responsabilitat, compromís, qualitat i medi ambient
+        description: El nostre aval és la responsabilitat i el compromís amb els projectes que construïm
       services:
         title: Serveis
-        description: Experiència i compromís avalen tots els projectes realitzats durant els anys que portem en actiu
+        description: Dil·latada experiencia profesional en obra nova, rehabilitació i manteniments
     contact:
       title: Contacte
-      description: No dubti en contactar amb nosaltres si vol demanar pressupost
+      description: No dubtis en contactar amb nosaltres si necessites un pressupost o per qualsevol qüestió
   contact:
     title: Contacte
     description: Si vol contactar amb nosaltres pot enviar-nos un correu electrònic, omplir el següent formulari o contactar via telefònica.
