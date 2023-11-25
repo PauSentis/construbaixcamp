@@ -9,19 +9,13 @@
       <div class="col-sm-12 col-md-6 col-lg-4 widget-col">
         <div class="widget-value">
           <div class="widget-content">
-            <i class="widget-icon fas fa-robot"></i>
+            <%= image_tag('robotic-arm.svg', class: 'widget-icon') %>
             <h1 class="widget-title"><%= t("business.widget_values.widget_#{i+1}.title") %></h1>
-            <p class="widget-description"><%= t("business.widget_values.widget_#{i+1}.description").html_safe %></p>
           </div>
         </div>
       </div>
     <% end %>
   </div>
 
-  <%= render 'shared/carousel', images: [
-  'carousel/materials.png', 
-  'carousel/serveis.png', 
-  'carousel/contacte.png', 
-  'carousel/empresa.png'
-] %>
+  <%= render 'shared/carousel', location: 'carousel/business', n_items: 5%>
 </div>
