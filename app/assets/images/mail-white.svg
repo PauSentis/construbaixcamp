@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="20px" viewBox="0 0 25 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mail_FILL0_wght400_GRAD0_opsz24@2x</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer_mbl" transform="translate(-73, -139)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="mail_FILL0_wght400_GRAD0_opsz24" transform="translate(73, 139)">
+                <path d="M2.5,20 C1.8125,20 1.22395833,19.7552083 0.734375,19.265625 C0.244791667,18.7760417 0,18.1875 0,17.5 L0,2.5 C0,1.8125 0.244791667,1.22395833 0.734375,0.734375 C1.22395833,0.244791667 1.8125,0 2.5,0 L22.5,0 C23.1875,0 23.7760417,0.244791667 24.265625,0.734375 C24.7552083,1.22395833 25,1.8125 25,2.5 L25,17.5 C25,18.1875 24.7552083,18.7760417 24.265625,19.265625 C23.7760417,19.7552083 23.1875,20 22.5,20 L2.5,20 Z M12.5,11.25 L2.5,5 L2.5,17.5 L22.5,17.5 L22.5,5 L12.5,11.25 Z M12.5,8.75 L22.5,2.5 L2.5,2.5 L12.5,8.75 Z M2.546875,5 L2.546875,2.5 L2.546875,17.5 L2.546875,5 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

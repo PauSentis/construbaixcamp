@@ -61,9 +61,5 @@
 }
 
 .logo-menu {
-  height: 50px;
-
-  @include media-breakpoint-up(lg) {
-    height: 80px;
-  }
+  height: 80px;
 }

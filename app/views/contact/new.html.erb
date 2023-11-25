@@ -2,7 +2,7 @@
   <h1 class="title"><%= t('contact.title') %></h1>
   <p class="description"><%= t('contact.description') %></p>
 
-  <%= render 'shared/contact_data' %>
+  <%= render 'shared/contact_data', white_logos: false %>
 
   
   <%= form_with(url: contact_path, method: :post, class: 'row g-3 form-contact') do |form| %>
