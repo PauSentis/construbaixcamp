@@ -3,7 +3,10 @@
 
   .nav-item {
     display: inline-block;
-    margin-right: 10px;
+
+    @include media-breakpoint-up(xl) {
+      margin-right: 10px;
+    }
   }
 
   .nav-link {
@@ -60,6 +63,28 @@
   border: none;
 }
 
-.logo-menu {
-  height: 80px;
+.navbar-brand{
+  width: 60%;
+  margin-right: 0;
+
+  @include media-breakpoint-up(lg) {
+    width: auto;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin-right: 16px;
+  }
+  
+  .logo-menu {
+    max-height: 80px;
+    max-width: 100%;
+    
+    @include media-breakpoint-up(lg) {
+      height: 65px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      height: 80px;
+    }
+  }
 }
