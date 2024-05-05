@@ -8,10 +8,10 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   scope '(:locale)', locale: /en|es|ca/ do
     root "pages#home"
-    get '/business', to: 'pages#business', as: 'business'
-    get '/services', to: 'pages#services', as: 'services'
-    get '/trajectory', to: 'pages#trajectory', as: 'trajectory'
-    get '/contact', to: 'contact#new', as: 'contact'
-    post '/contact', to: 'contact#create'
+    get 'business', to: 'pages#business', as: 'business'
+    get 'services', to: 'pages#services', as: 'services'
+    get 'trajectory', to: 'pages#trajectory', as: 'trajectory'
+    get 'contact', to: 'contact#new', as: 'contact'
+    post 'contact', to: 'contact#create'
   end
 end

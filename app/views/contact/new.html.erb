@@ -1,3 +1,5 @@
+<script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
+
 <div class="container contact-page">
   <h1 class="title"><%= t('contact.title') %></h1>
   <p class="description"><%= t('contact.description') %></p>
@@ -5,7 +7,7 @@
   <%= render 'shared/contact_data', white_logos: false %>
 
   
-  <%= form_with(url: contact_path, method: :post, class: 'row g-3 form-contact') do |form| %>
+  <%= form_with(url: '/cgi-bin/send_contact.py', method: :post, class: 'row g-3 form-contact') do |form| %>
     <div class="col-md-6">
       <%= form.label :name, t('contact.form.name'), class: 'form-label' %>
       <%= form.text_field :name, class: 'form-control', required: true %>
@@ -25,6 +27,8 @@
       <%= form.label :message, t('contact.form.message'), class: 'form-label' %>
       <%= form.text_area :message, class: 'form-control', rows: 4, required: true %>
     </div>
+
+    <div class="g-recaptcha" data-sitekey="<%= ENV['RECAPTCHA_SITE_KEY'] %>" data-action="contact"></div>
 
     <div class="col-12">
       <%= form.submit t('btn.send'), class: 'btn btn-primary' %>
